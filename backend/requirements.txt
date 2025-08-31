@@ -1,0 +1,27 @@
+# Backend Requirements for FAMIS (Gusau LGA AMIS)
+# Python FastAPI requirements
+# ----------------------------------------------
+
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database dependencies
+sqlalchemy
+pymysql
+mysql-connector-python
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+PyJWT
+
+# Data validation
+pydantic
+pydantic[email]
+
+# Additional utilities
+python-dotenv
+requests 
